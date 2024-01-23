@@ -27,10 +27,8 @@ import (
 	shimv2 "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim/sdk-v2"
 	"github.com/pulumi/pulumi/sdk/v3/go/common/resource"
 
-	// Replace this provider with the provider you are bridging.
-	launchdarkly "github.com/launchdarkly/terraform-provider-launchdarkly/launchdarkly"
-
-	"github.com/francesco995/pulumi-launchdarkly/launchdarkly/pkg/version"
+	"github.com/francesco995/pulumi-launchdarkly/provider/pkg/version"
+	"github.com/launchdarkly/terraform-provider-launchdarkly/launchdarkly"
 )
 
 // all of the token components used below.

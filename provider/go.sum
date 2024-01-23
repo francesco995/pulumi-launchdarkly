@@ -477,6 +477,7 @@ github.com/launchdarkly/api-client-go v5.3.0+incompatible/go.mod h1:INGa7NUZYSwV
 github.com/launchdarkly/terraform-provider-launchdarkly v1.7.1 h1:bFYtBaPjNwA6429LnZJBSNMPinlR2AfvhpCRWWH6azw=
 github.com/launchdarkly/terraform-provider-launchdarkly v1.7.1/go.mod h1:4Nl4ggvJ1sbJjtnNWJzDv8Uz03iAnWYyWNKcj5ZLtls=
 github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20230130151041-c79165db4b9a/go.mod h1:XDT29aBtE0+7/UpS6NA20AV7/fHVnFSeIxsKC4eu/kg=
+github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20231212114036-3bca36a0e280/go.mod h1:difGXYpPY5Pnmub+dAJd+nczawHO51jFJZmZkkcYUCY=
 github.com/mattn/go-colorable v0.0.9/go.mod h1:9vuHe8Xs5qXnSaW/c/ABM9alt+Vo+STaOChaDxuIBZU=
 github.com/mattn/go-colorable v0.1.1/go.mod h1:FuOcm+DKB9mbwrcAfNl7/TZVBZ6rcnceauSikq3lYCQ=
 github.com/mattn/go-colorable v0.1.9/go.mod h1:u6P/XSegPjTcexA+o6vUJrdnUu04hMope9wVRipJSqc=
