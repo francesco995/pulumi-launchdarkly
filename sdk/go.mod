@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-launchdarkly/sdk
+module github.com/francesco995/pulumi-launchdarkly/sdk
 
 go 1.17
 

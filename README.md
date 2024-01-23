@@ -370,7 +370,7 @@ builds:
   - linux
   ignore: []
   ldflags:
-  - -X github.com/pulumi/pulumi-launchdarkly/provider/pkg/version.Version={{.Tag}}
+  - -X github.com/francesco995/pulumi-launchdarkly/provider/pkg/version.Version={{.Tag}}
   main: ./cmd/pulumi-resource-launchdarkly/
   sort: asc
   use: git

@@ -19,8 +19,8 @@ package main
 import (
 	_ "embed"
 
-	launchdarkly "github.com/pulumi/pulumi-launchdarkly/provider"
-	"github.com/pulumi/pulumi-launchdarkly/provider/pkg/version"
+	launchdarkly "github.com/francesco995/pulumi-launchdarkly/provider"
+	"github.com/francesco995/pulumi-launchdarkly/provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 )
 
