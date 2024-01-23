@@ -30,7 +30,7 @@ import (
 	// Replace this provider with the provider you are bridging.
 	launchdarkly "github.com/launchdarkly/terraform-provider-launchdarkly/launchdarkly"
 
-	"github.com/francesco995/pulumi-launchdarkly/launchdarkly/pkg/version"
+	"github.com/francesco995/pulumi-launchdarkly/provider/pkg/version"
 )
 
 // all of the token components used below.
@@ -58,7 +58,7 @@ func Provider() tfbridge.ProviderInfo {
 	// Create a Pulumi provider mapping
 	prov := tfbridge.ProviderInfo{
 		// Instantiate the Terraform provider
-		P:    shimv2.NewProvider(launchdarkly.New(version.Version)()),
+		P:    shimv2.NewProvider(launchdarkly.Provider()),
 		Name: "launchdarkly",
 		// DisplayName is a way to be able to change the casing of the provider
 		// name when being displayed on the Pulumi registry
@@ -85,10 +85,10 @@ func Provider() tfbridge.ProviderInfo {
 		Keywords:   []string{"pulumi", "launchdarkly", "category/cloud"},
 		License:    "Apache-2.0",
 		Homepage:   "https://www.pulumi.com",
-		Repository: "https://github.com/pulumi/pulumi-launchdarkly",
+		Repository: "https://github.com/francesco995/pulumi-launchdarkly",
 		// The GitHub Org for the provider - defaults to `terraform-providers`. Note that this
 		// should match the TF provider module's require directive, not any replace directives.
-		GitHubOrg:    "",
+		GitHubOrg:    "launchdarkly",
 		MetadataInfo: tfbridge.NewProviderMetadata(metadata),
 		Config:       map[string]*tfbridge.SchemaInfo{
 			// Add any required configuration here, or remove the example below if

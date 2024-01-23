@@ -1,8 +1,8 @@
 PROJECT_NAME := launchdarkly Package
 
-SHELL            := /bin/bash
+SHELL            := bash
 PACK             := launchdarkly
-ORG              := pulumi
+ORG              := francesco995
 PROJECT          := github.com/${ORG}/pulumi-${PACK}
 NODE_MODULE_NAME := @pulumi/${PACK}
 TF_NAME          := ${PACK}

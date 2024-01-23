@@ -1,1 +1,1113 @@
-{}
+{
+    "auto-aliasing": {
+        "resources": {
+            "launchdarkly_access_token": {
+                "current": "launchdarkly:index/accessToken:AccessToken",
+                "fields": {
+                    "custom_roles": {
+                        "maxItemsOne": false
+                    },
+                    "inline_roles": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "policy_statements": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "launchdarkly_audit_log_subscription": {
+                "current": "launchdarkly:index/auditLogSubscription:AuditLogSubscription",
+                "fields": {
+                    "statements": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_custom_role": {
+                "current": "launchdarkly:index/customRole:CustomRole",
+                "fields": {
+                    "policy": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "policy_statements": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "launchdarkly_destination": {
+                "current": "launchdarkly:index/destination:Destination",
+                "fields": {
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_environment": {
+                "current": "launchdarkly:index/environment:Environment",
+                "fields": {
+                    "approval_settings": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "required_approval_tags": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_feature_flag": {
+                "current": "launchdarkly:index/featureFlag:FeatureFlag",
+                "fields": {
+                    "client_side_availability": {
+                        "maxItemsOne": false
+                    },
+                    "custom_properties": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "value": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "defaults": {
+                        "maxItemsOne": true
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    },
+                    "variations": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_feature_flag_environment": {
+                "current": "launchdarkly:index/featureFlagEnvironment:FeatureFlagEnvironment",
+                "fields": {
+                    "context_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "fallthrough": {
+                        "maxItemsOne": true,
+                        "elem": {
+                            "fields": {
+                                "rollout_weights": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "prerequisites": {
+                        "maxItemsOne": false
+                    },
+                    "rules": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "clauses": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "values": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "rollout_weights": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "launchdarkly_flag_trigger": {
+                "current": "launchdarkly:index/flagTrigger:FlagTrigger",
+                "fields": {
+                    "instructions": {
+                        "maxItemsOne": true
+                    }
+                }
+            },
+            "launchdarkly_metric": {
+                "current": "launchdarkly:index/metric:Metric",
+                "fields": {
+                    "randomization_units": {
+                        "maxItemsOne": false
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    },
+                    "urls": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_project": {
+                "current": "launchdarkly:index/project:Project",
+                "fields": {
+                    "default_client_side_availability": {
+                        "maxItemsOne": false
+                    },
+                    "environments": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "approval_settings": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "required_approval_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "tags": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_relay_proxy_configuration": {
+                "current": "launchdarkly:index/relayProxyConfiguration:RelayProxyConfiguration",
+                "fields": {
+                    "policy": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "launchdarkly_segment": {
+                "current": "launchdarkly:index/segment:Segment",
+                "fields": {
+                    "excluded": {
+                        "maxItemsOne": false
+                    },
+                    "excluded_contexts": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "included": {
+                        "maxItemsOne": false
+                    },
+                    "included_contexts": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "rules": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "clauses": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "values": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_team": {
+                "current": "launchdarkly:index/team:Team",
+                "fields": {
+                    "custom_role_keys": {
+                        "maxItemsOne": false
+                    },
+                    "maintainers": {
+                        "maxItemsOne": false
+                    },
+                    "member_ids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_team_member": {
+                "current": "launchdarkly:index/teamMember:TeamMember",
+                "fields": {
+                    "custom_roles": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_webhook": {
+                "current": "launchdarkly:index/webhook:Webhook",
+                "fields": {
+                    "statements": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            }
+        },
+        "datasources": {
+            "launchdarkly_audit_log_subscription": {
+                "current": "launchdarkly:index/getAuditLogSubscription:getAuditLogSubscription",
+                "fields": {
+                    "statements": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_environment": {
+                "current": "launchdarkly:index/getEnvironment:getEnvironment",
+                "fields": {
+                    "approval_settings": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "required_approval_tags": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_feature_flag": {
+                "current": "launchdarkly:index/getFeatureFlag:getFeatureFlag",
+                "fields": {
+                    "client_side_availability": {
+                        "maxItemsOne": false
+                    },
+                    "custom_properties": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "value": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "defaults": {
+                        "maxItemsOne": false
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    },
+                    "variations": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_feature_flag_environment": {
+                "current": "launchdarkly:index/getFeatureFlagEnvironment:getFeatureFlagEnvironment",
+                "fields": {
+                    "context_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "fallthrough": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "rollout_weights": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "prerequisites": {
+                        "maxItemsOne": false
+                    },
+                    "rules": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "clauses": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "values": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "rollout_weights": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "launchdarkly_flag_trigger": {
+                "current": "launchdarkly:index/getFlagTrigger:getFlagTrigger",
+                "fields": {
+                    "instructions": {
+                        "maxItemsOne": true
+                    }
+                }
+            },
+            "launchdarkly_metric": {
+                "current": "launchdarkly:index/getMetric:getMetric",
+                "fields": {
+                    "randomization_units": {
+                        "maxItemsOne": false
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    },
+                    "urls": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_project": {
+                "current": "launchdarkly:index/getProject:getProject",
+                "fields": {
+                    "client_side_availability": {
+                        "maxItemsOne": false
+                    },
+                    "default_client_side_availability": {
+                        "maxItemsOne": false
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_relay_proxy_configuration": {
+                "current": "launchdarkly:index/getRelayProxyConfiguration:getRelayProxyConfiguration",
+                "fields": {
+                    "policy": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "launchdarkly_segment": {
+                "current": "launchdarkly:index/getSegment:getSegment",
+                "fields": {
+                    "excluded": {
+                        "maxItemsOne": false
+                    },
+                    "excluded_contexts": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "included": {
+                        "maxItemsOne": false
+                    },
+                    "included_contexts": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "values": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "rules": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "clauses": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "values": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_team": {
+                "current": "launchdarkly:index/getTeam:getTeam",
+                "fields": {
+                    "custom_role_keys": {
+                        "maxItemsOne": false
+                    },
+                    "maintainers": {
+                        "maxItemsOne": false
+                    },
+                    "project_keys": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_team_member": {
+                "current": "launchdarkly:index/getTeamMember:getTeamMember",
+                "fields": {
+                    "custom_roles": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "launchdarkly_team_members": {
+                "current": "launchdarkly:index/getTeamMembers:getTeamMembers",
+                "fields": {
+                    "emails": {
+                        "maxItemsOne": false
+                    },
+                    "team_members": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "custom_roles": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "launchdarkly_webhook": {
+                "current": "launchdarkly:index/getWebhook:getWebhook",
+                "fields": {
+                    "statements": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_actions": {
+                                    "maxItemsOne": false
+                                },
+                                "not_resources": {
+                                    "maxItemsOne": false
+                                },
+                                "resources": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            }
+        }
+    },
+    "auto-settings": {},
+    "renames": {
+        "resources": {
+            "launchdarkly:index/accessToken:AccessToken": "launchdarkly_access_token",
+            "launchdarkly:index/auditLogSubscription:AuditLogSubscription": "launchdarkly_audit_log_subscription",
+            "launchdarkly:index/customRole:CustomRole": "launchdarkly_custom_role",
+            "launchdarkly:index/destination:Destination": "launchdarkly_destination",
+            "launchdarkly:index/environment:Environment": "launchdarkly_environment",
+            "launchdarkly:index/featureFlag:FeatureFlag": "launchdarkly_feature_flag",
+            "launchdarkly:index/featureFlagEnvironment:FeatureFlagEnvironment": "launchdarkly_feature_flag_environment",
+            "launchdarkly:index/flagTrigger:FlagTrigger": "launchdarkly_flag_trigger",
+            "launchdarkly:index/metric:Metric": "launchdarkly_metric",
+            "launchdarkly:index/project:Project": "launchdarkly_project",
+            "launchdarkly:index/relayProxyConfiguration:RelayProxyConfiguration": "launchdarkly_relay_proxy_configuration",
+            "launchdarkly:index/segment:Segment": "launchdarkly_segment",
+            "launchdarkly:index/team:Team": "launchdarkly_team",
+            "launchdarkly:index/teamMember:TeamMember": "launchdarkly_team_member",
+            "launchdarkly:index/webhook:Webhook": "launchdarkly_webhook"
+        },
+        "functions": {
+            "launchdarkly:index/getAuditLogSubscription:getAuditLogSubscription": "launchdarkly_audit_log_subscription",
+            "launchdarkly:index/getEnvironment:getEnvironment": "launchdarkly_environment",
+            "launchdarkly:index/getFeatureFlag:getFeatureFlag": "launchdarkly_feature_flag",
+            "launchdarkly:index/getFeatureFlagEnvironment:getFeatureFlagEnvironment": "launchdarkly_feature_flag_environment",
+            "launchdarkly:index/getFlagTrigger:getFlagTrigger": "launchdarkly_flag_trigger",
+            "launchdarkly:index/getMetric:getMetric": "launchdarkly_metric",
+            "launchdarkly:index/getProject:getProject": "launchdarkly_project",
+            "launchdarkly:index/getRelayProxyConfiguration:getRelayProxyConfiguration": "launchdarkly_relay_proxy_configuration",
+            "launchdarkly:index/getSegment:getSegment": "launchdarkly_segment",
+            "launchdarkly:index/getTeam:getTeam": "launchdarkly_team",
+            "launchdarkly:index/getTeamMember:getTeamMember": "launchdarkly_team_member",
+            "launchdarkly:index/getTeamMembers:getTeamMembers": "launchdarkly_team_members",
+            "launchdarkly:index/getWebhook:getWebhook": "launchdarkly_webhook"
+        },
+        "renamedProperties": {
+            "launchdarkly:index/AccessTokenInlineRole:AccessTokenInlineRole": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/AccessTokenPolicyStatement:AccessTokenPolicyStatement": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/AuditLogSubscriptionStatement:AuditLogSubscriptionStatement": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/CustomRolePolicyStatement:CustomRolePolicyStatement": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/EnvironmentApprovalSetting:EnvironmentApprovalSetting": {
+                "canApplyDeclinedChanges": "can_apply_declined_changes",
+                "canReviewOwnRequest": "can_review_own_request",
+                "minNumApprovals": "min_num_approvals",
+                "requiredApprovalTags": "required_approval_tags",
+                "serviceConfig": "service_config",
+                "serviceKind": "service_kind"
+            },
+            "launchdarkly:index/FeatureFlagClientSideAvailability:FeatureFlagClientSideAvailability": {
+                "usingEnvironmentId": "using_environment_id",
+                "usingMobileKey": "using_mobile_key"
+            },
+            "launchdarkly:index/FeatureFlagCustomProperty:FeatureFlagCustomProperty": {
+                "values": "value"
+            },
+            "launchdarkly:index/FeatureFlagDefaults:FeatureFlagDefaults": {
+                "offVariation": "off_variation",
+                "onVariation": "on_variation"
+            },
+            "launchdarkly:index/FeatureFlagEnvironmentContextTarget:FeatureFlagEnvironmentContextTarget": {
+                "contextKind": "context_kind"
+            },
+            "launchdarkly:index/FeatureFlagEnvironmentFallthrough:FeatureFlagEnvironmentFallthrough": {
+                "bucketBy": "bucket_by",
+                "contextKind": "context_kind",
+                "rolloutWeights": "rollout_weights"
+            },
+            "launchdarkly:index/FeatureFlagEnvironmentPrerequisite:FeatureFlagEnvironmentPrerequisite": {
+                "flagKey": "flag_key"
+            },
+            "launchdarkly:index/FeatureFlagEnvironmentRule:FeatureFlagEnvironmentRule": {
+                "bucketBy": "bucket_by",
+                "rolloutWeights": "rollout_weights"
+            },
+            "launchdarkly:index/FeatureFlagEnvironmentRuleClause:FeatureFlagEnvironmentRuleClause": {
+                "contextKind": "context_kind",
+                "valueType": "value_type"
+            },
+            "launchdarkly:index/ProjectDefaultClientSideAvailability:ProjectDefaultClientSideAvailability": {
+                "usingEnvironmentId": "using_environment_id",
+                "usingMobileKey": "using_mobile_key"
+            },
+            "launchdarkly:index/ProjectEnvironment:ProjectEnvironment": {
+                "apiKey": "api_key",
+                "approvalSettings": "approval_settings",
+                "clientSideId": "client_side_id",
+                "confirmChanges": "confirm_changes",
+                "defaultTrackEvents": "default_track_events",
+                "defaultTtl": "default_ttl",
+                "mobileKey": "mobile_key",
+                "requireComments": "require_comments",
+                "secureMode": "secure_mode"
+            },
+            "launchdarkly:index/ProjectEnvironmentApprovalSetting:ProjectEnvironmentApprovalSetting": {
+                "canApplyDeclinedChanges": "can_apply_declined_changes",
+                "canReviewOwnRequest": "can_review_own_request",
+                "minNumApprovals": "min_num_approvals",
+                "requiredApprovalTags": "required_approval_tags",
+                "serviceConfig": "service_config",
+                "serviceKind": "service_kind"
+            },
+            "launchdarkly:index/RelayProxyConfigurationPolicy:RelayProxyConfigurationPolicy": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/SegmentExcludedContext:SegmentExcludedContext": {
+                "contextKind": "context_kind"
+            },
+            "launchdarkly:index/SegmentIncludedContext:SegmentIncludedContext": {
+                "contextKind": "context_kind"
+            },
+            "launchdarkly:index/SegmentRule:SegmentRule": {
+                "bucketBy": "bucket_by",
+                "rolloutContextKind": "rollout_context_kind"
+            },
+            "launchdarkly:index/SegmentRuleClause:SegmentRuleClause": {
+                "contextKind": "context_kind",
+                "valueType": "value_type"
+            },
+            "launchdarkly:index/WebhookStatement:WebhookStatement": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/accessToken:AccessToken": {
+                "customRoles": "custom_roles",
+                "defaultApiVersion": "default_api_version",
+                "inlineRoles": "inline_roles",
+                "policyStatements": "policy_statements",
+                "serviceToken": "service_token"
+            },
+            "launchdarkly:index/auditLogSubscription:AuditLogSubscription": {
+                "integrationKey": "integration_key"
+            },
+            "launchdarkly:index/customRole:CustomRole": {
+                "basePermissions": "base_permissions",
+                "policies": "policy",
+                "policyStatements": "policy_statements"
+            },
+            "launchdarkly:index/destination:Destination": {
+                "envKey": "env_key",
+                "projectKey": "project_key"
+            },
+            "launchdarkly:index/environment:Environment": {
+                "apiKey": "api_key",
+                "approvalSettings": "approval_settings",
+                "clientSideId": "client_side_id",
+                "confirmChanges": "confirm_changes",
+                "defaultTrackEvents": "default_track_events",
+                "defaultTtl": "default_ttl",
+                "mobileKey": "mobile_key",
+                "projectKey": "project_key",
+                "requireComments": "require_comments",
+                "secureMode": "secure_mode"
+            },
+            "launchdarkly:index/featureFlag:FeatureFlag": {
+                "clientSideAvailabilities": "client_side_availability",
+                "customProperties": "custom_properties",
+                "includeInSnippet": "include_in_snippet",
+                "maintainerId": "maintainer_id",
+                "projectKey": "project_key",
+                "variationType": "variation_type"
+            },
+            "launchdarkly:index/featureFlagEnvironment:FeatureFlagEnvironment": {
+                "contextTargets": "context_targets",
+                "envKey": "env_key",
+                "flagId": "flag_id",
+                "offVariation": "off_variation",
+                "trackEvents": "track_events"
+            },
+            "launchdarkly:index/flagTrigger:FlagTrigger": {
+                "envKey": "env_key",
+                "flagKey": "flag_key",
+                "integrationKey": "integration_key",
+                "maintainerId": "maintainer_id",
+                "projectKey": "project_key",
+                "triggerUrl": "trigger_url"
+            },
+            "launchdarkly:index/getAuditLogSubscription:getAuditLogSubscription": {
+                "integrationKey": "integration_key"
+            },
+            "launchdarkly:index/getAuditLogSubscriptionStatement:getAuditLogSubscriptionStatement": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/getEnvironment:getEnvironment": {
+                "apiKey": "api_key",
+                "approvalSettings": "approval_settings",
+                "clientSideId": "client_side_id",
+                "confirmChanges": "confirm_changes",
+                "defaultTrackEvents": "default_track_events",
+                "defaultTtl": "default_ttl",
+                "mobileKey": "mobile_key",
+                "projectKey": "project_key",
+                "requireComments": "require_comments",
+                "secureMode": "secure_mode"
+            },
+            "launchdarkly:index/getEnvironmentApprovalSetting:getEnvironmentApprovalSetting": {
+                "canApplyDeclinedChanges": "can_apply_declined_changes",
+                "canReviewOwnRequest": "can_review_own_request",
+                "minNumApprovals": "min_num_approvals",
+                "requiredApprovalTags": "required_approval_tags",
+                "serviceConfig": "service_config",
+                "serviceKind": "service_kind"
+            },
+            "launchdarkly:index/getFeatureFlag:getFeatureFlag": {
+                "clientSideAvailabilities": "client_side_availability",
+                "customProperties": "custom_properties",
+                "includeInSnippet": "include_in_snippet",
+                "maintainerId": "maintainer_id",
+                "projectKey": "project_key",
+                "variationType": "variation_type"
+            },
+            "launchdarkly:index/getFeatureFlagClientSideAvailability:getFeatureFlagClientSideAvailability": {
+                "usingEnvironmentId": "using_environment_id",
+                "usingMobileKey": "using_mobile_key"
+            },
+            "launchdarkly:index/getFeatureFlagCustomProperty:getFeatureFlagCustomProperty": {
+                "values": "value"
+            },
+            "launchdarkly:index/getFeatureFlagDefault:getFeatureFlagDefault": {
+                "offVariation": "off_variation",
+                "onVariation": "on_variation"
+            },
+            "launchdarkly:index/getFeatureFlagEnvironment:getFeatureFlagEnvironment": {
+                "contextTargets": "context_targets",
+                "envKey": "env_key",
+                "fallthroughs": "fallthrough",
+                "flagId": "flag_id",
+                "offVariation": "off_variation",
+                "trackEvents": "track_events"
+            },
+            "launchdarkly:index/getFeatureFlagEnvironmentContextTarget:getFeatureFlagEnvironmentContextTarget": {
+                "contextKind": "context_kind"
+            },
+            "launchdarkly:index/getFeatureFlagEnvironmentFallthrough:getFeatureFlagEnvironmentFallthrough": {
+                "bucketBy": "bucket_by",
+                "contextKind": "context_kind",
+                "rolloutWeights": "rollout_weights"
+            },
+            "launchdarkly:index/getFeatureFlagEnvironmentPrerequisite:getFeatureFlagEnvironmentPrerequisite": {
+                "flagKey": "flag_key"
+            },
+            "launchdarkly:index/getFeatureFlagEnvironmentRule:getFeatureFlagEnvironmentRule": {
+                "bucketBy": "bucket_by",
+                "rolloutWeights": "rollout_weights"
+            },
+            "launchdarkly:index/getFeatureFlagEnvironmentRuleClause:getFeatureFlagEnvironmentRuleClause": {
+                "contextKind": "context_kind",
+                "valueType": "value_type"
+            },
+            "launchdarkly:index/getFlagTrigger:getFlagTrigger": {
+                "envKey": "env_key",
+                "flagKey": "flag_key",
+                "integrationKey": "integration_key",
+                "maintainerId": "maintainer_id",
+                "projectKey": "project_key",
+                "triggerUrl": "trigger_url"
+            },
+            "launchdarkly:index/getMetric:getMetric": {
+                "eventKey": "event_key",
+                "isActive": "is_active",
+                "isNumeric": "is_numeric",
+                "maintainerId": "maintainer_id",
+                "projectKey": "project_key",
+                "randomizationUnits": "randomization_units",
+                "successCriteria": "success_criteria"
+            },
+            "launchdarkly:index/getProject:getProject": {
+                "clientSideAvailabilities": "client_side_availability",
+                "defaultClientSideAvailabilities": "default_client_side_availability"
+            },
+            "launchdarkly:index/getProjectClientSideAvailability:getProjectClientSideAvailability": {
+                "usingEnvironmentId": "using_environment_id",
+                "usingMobileKey": "using_mobile_key"
+            },
+            "launchdarkly:index/getProjectDefaultClientSideAvailability:getProjectDefaultClientSideAvailability": {
+                "usingEnvironmentId": "using_environment_id",
+                "usingMobileKey": "using_mobile_key"
+            },
+            "launchdarkly:index/getRelayProxyConfiguration:getRelayProxyConfiguration": {
+                "displayKey": "display_key",
+                "policies": "policy"
+            },
+            "launchdarkly:index/getRelayProxyConfigurationPolicy:getRelayProxyConfigurationPolicy": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/getSegment:getSegment": {
+                "creationDate": "creation_date",
+                "envKey": "env_key",
+                "excludedContexts": "excluded_contexts",
+                "excludeds": "excluded",
+                "includedContexts": "included_contexts",
+                "includeds": "included",
+                "projectKey": "project_key",
+                "unboundedContextKind": "unbounded_context_kind"
+            },
+            "launchdarkly:index/getSegmentExcludedContext:getSegmentExcludedContext": {
+                "contextKind": "context_kind"
+            },
+            "launchdarkly:index/getSegmentIncludedContext:getSegmentIncludedContext": {
+                "contextKind": "context_kind"
+            },
+            "launchdarkly:index/getSegmentRule:getSegmentRule": {
+                "bucketBy": "bucket_by",
+                "rolloutContextKind": "rollout_context_kind"
+            },
+            "launchdarkly:index/getSegmentRuleClause:getSegmentRuleClause": {
+                "contextKind": "context_kind",
+                "valueType": "value_type"
+            },
+            "launchdarkly:index/getTeam:getTeam": {
+                "customRoleKeys": "custom_role_keys",
+                "projectKeys": "project_keys"
+            },
+            "launchdarkly:index/getTeamMaintainer:getTeamMaintainer": {
+                "firstName": "first_name",
+                "lastName": "last_name"
+            },
+            "launchdarkly:index/getTeamMember:getTeamMember": {
+                "customRoles": "custom_roles",
+                "firstName": "first_name",
+                "lastName": "last_name"
+            },
+            "launchdarkly:index/getTeamMembers:getTeamMembers": {
+                "ignoreMissing": "ignore_missing",
+                "teamMembers": "team_members"
+            },
+            "launchdarkly:index/getTeamMembersTeamMember:getTeamMembersTeamMember": {
+                "customRoles": "custom_roles",
+                "firstName": "first_name",
+                "lastName": "last_name"
+            },
+            "launchdarkly:index/getWebhookStatement:getWebhookStatement": {
+                "notActions": "not_actions",
+                "notResources": "not_resources"
+            },
+            "launchdarkly:index/metric:Metric": {
+                "eventKey": "event_key",
+                "isActive": "is_active",
+                "isNumeric": "is_numeric",
+                "maintainerId": "maintainer_id",
+                "projectKey": "project_key",
+                "randomizationUnits": "randomization_units",
+                "successCriteria": "success_criteria"
+            },
+            "launchdarkly:index/project:Project": {
+                "defaultClientSideAvailabilities": "default_client_side_availability",
+                "includeInSnippet": "include_in_snippet"
+            },
+            "launchdarkly:index/relayProxyConfiguration:RelayProxyConfiguration": {
+                "displayKey": "display_key",
+                "fullKey": "full_key",
+                "policies": "policy"
+            },
+            "launchdarkly:index/segment:Segment": {
+                "creationDate": "creation_date",
+                "envKey": "env_key",
+                "excludedContexts": "excluded_contexts",
+                "excludeds": "excluded",
+                "includedContexts": "included_contexts",
+                "includeds": "included",
+                "projectKey": "project_key",
+                "unboundedContextKind": "unbounded_context_kind"
+            },
+            "launchdarkly:index/team:Team": {
+                "customRoleKeys": "custom_role_keys",
+                "memberIds": "member_ids"
+            },
+            "launchdarkly:index/teamMember:TeamMember": {
+                "customRoles": "custom_roles",
+                "firstName": "first_name",
+                "lastName": "last_name"
+            },
+            "launchdarkly:index:Provider": {
+                "accessToken": "access_token",
+                "apiHost": "api_host",
+                "httpTimeout": "http_timeout",
+                "oauthToken": "oauth_token"
+            }
+        },
+        "renamedConfigProperties": {
+            "accessToken": "access_token",
+            "apiHost": "api_host",
+            "httpTimeout": "http_timeout",
+            "oauthToken": "oauth_token"
+        }
+    }
+}
