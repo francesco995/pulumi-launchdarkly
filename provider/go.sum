@@ -1826,8 +1826,8 @@ github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0
 github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=
 github.com/launchdarkly/api-client-go/v12 v12.0.0 h1:GiP3gvsLddl9VpFoz8JARP8MQi/0gsQSTg7scyIpJKY=
 github.com/launchdarkly/api-client-go/v12 v12.0.0/go.mod h1:gAIb6T7YFMu8qb5V4nVwvYfe3sWQHg0SNr0kWL10KNA=
-github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20231212114036-3bca36a0e280 h1:JRhvlWveoqn1n7t8DJFqMNG8jmeWDo4AG90ujPkdDz8=
-github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20231212114036-3bca36a0e280/go.mod h1:difGXYpPY5Pnmub+dAJd+nczawHO51jFJZmZkkcYUCY=
+github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20231208172832-32143b536fed h1:AnSuWVM1WKHubTKs6ZSBuXBbYN+NDEep4HWO+crCgUE=
+github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20231208172832-32143b536fed/go.mod h1:difGXYpPY5Pnmub+dAJd+nczawHO51jFJZmZkkcYUCY=
 github.com/leodido/go-urn v1.2.0/go.mod h1:+8+nEpDfqqsY+g338gtMEUOtuK+4dEMhiQEgxpxOKII=
 github.com/lib/pq v1.0.0/go.mod h1:5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=
 github.com/lib/pq v1.1.0/go.mod h1:5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=
