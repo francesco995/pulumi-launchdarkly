@@ -53,7 +53,7 @@ export function getVersion(): string {
 
 /** @internal */
 export function resourceOptsDefaults(): any {
-    return { version: getVersion(), pluginDownloadURL: "https://github.com/francesco995/pulumi-launchdarkly/releases/" };
+    return { version: getVersion(), pluginDownloadURL: "github://api.github.com/francesco995/" };
 }
 
 /** @internal */

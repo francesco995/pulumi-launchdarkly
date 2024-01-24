@@ -10,7 +10,7 @@
     "license": "Apache-2.0",
     "attribution": "This Pulumi package is based on the [`launchdarkly` Terraform Provider](https://github.com/launchdarkly/terraform-provider-launchdarkly).",
     "repository": "https://github.com/francesco995/pulumi-launchdarkly",
-    "pluginDownloadURL": "https://github.com/francesco995/pulumi-launchdarkly/releases/",
+    "pluginDownloadURL": "github://api.github.com/francesco995/",
     "publisher": "Pulumi",
     "meta": {
         "moduleFormat": "(.*)(?:/[^/]*)"

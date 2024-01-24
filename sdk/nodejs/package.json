@@ -24,6 +24,6 @@
     "pulumi": {
         "resource": true,
         "name": "launchdarkly",
-        "server": "https://github.com/francesco995/pulumi-launchdarkly/releases/"
+        "server": "github://api.github.com/francesco995/"
     }
 }
