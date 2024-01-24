@@ -1,4 +1,5 @@
 {
   "resource": true,
-  "name": "launchdarkly"
+  "name": "launchdarkly",
+  "server": "https://github.com/francesco995/pulumi-launchdarkly/releases/"
 }

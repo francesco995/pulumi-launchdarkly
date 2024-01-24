@@ -95,6 +95,7 @@ namespace Pulumi.Launchdarkly
             var defaultOptions = new CustomResourceOptions
             {
                 Version = Utilities.Version,
+                PluginDownloadURL = "https://github.com/francesco995/pulumi-launchdarkly/releases/",
                 AdditionalSecretOutputs =
                 {
                     "triggerUrl",

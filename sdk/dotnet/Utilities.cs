@@ -53,6 +53,7 @@ namespace Pulumi.Launchdarkly
         {
             var dst = src ?? new global::Pulumi.InvokeOptions{};
             dst.Version = src?.Version ?? Version;
+            dst.PluginDownloadURL = src?.PluginDownloadURL ?? "https://github.com/francesco995/pulumi-launchdarkly/releases/";
             return dst;
         }
 
