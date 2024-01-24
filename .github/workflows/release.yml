@@ -4,6 +4,7 @@ on:
     tags:
       - v*.*.*
 env:
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   PUBLISH_NPM: false
 
   PUBLISH_NUGET: false
